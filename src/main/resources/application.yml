@@ -9,7 +9,7 @@ spring:
             force-response: true
 
     datasource:
-        driver-class-name: org.h2.Driver
+        driver-class-name: com.mysql.cj.jdbc.Driver
         url: jdbc:mysql://localhost:3306/example
         username: sa
         password:
