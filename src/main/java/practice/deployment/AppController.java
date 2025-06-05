@@ -9,4 +9,11 @@ public class AppController {
     public String home() {
         return "Hello, World!";
     }
+
+    @GetMapping("/hi")
+    public String hi() {
+        return "Hi, there!";
+    }
 }
+
+
